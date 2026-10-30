@@ -1,0 +1,43 @@
+{
+  "sourceSha256": "6ff0a057ac276e67f7c7346219ffb7b5688c050dc4c6b133d4625dc591033160",
+  "flashHardwareColours": [
+    72,
+    71,
+    70,
+    69,
+    68,
+    67,
+    66,
+    84
+  ],
+  "flashTickSeconds": 0.02,
+  "doorVisibleCycle": [
+    true,
+    false,
+    false,
+    true
+  ],
+  "bonusStepSeconds": 0.003817271568627451,
+  "bonusSoundSeconds": 0.9733333333333334,
+  "openingSoundSeconds": 1.5,
+  "bonusWaitSeconds": 1.0,
+  "wipeSeconds": 0.5,
+  "addresses": {
+    "quota": "0x0965",
+    "openingSound": "0x0857",
+    "flash": "0x2aef",
+    "doorBlink": "0x0b87",
+    "exitEntry": "0x0a56",
+    "bonusLoop": "0x1ce0",
+    "bonusSound": "0x1bff",
+    "wipe": "0x0e28",
+    "wipeCharacter": "0x3000"
+  },
+  "probes": {
+    "quota11of12Closed": true,
+    "quota12of12OpensAndFlashes": true,
+    "doorDrawBranchVerified": true,
+    "entrySetsCompletionFlags": true
+  },
+  "timingNote": "Bonus code measured at 4 MHz with audio interrupts at 300 Hz. AY port writer trapped; CPC contention/firmware scheduling not emulated. Opening driver scheduled at 50 Hz; visual wipe duration chosen for readability."
+}

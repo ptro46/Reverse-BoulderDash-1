@@ -1,0 +1,29 @@
+{
+  "title": 40.96,
+  "effects": {
+    "diamond": {
+      "setter": "0x99f",
+      "seconds": 1.2
+    },
+    "dig": {
+      "setter": "0x9e0",
+      "seconds": 1.2
+    },
+    "step": {
+      "setter": "0x9c2",
+      "seconds": 1.2
+    },
+    "rock": {
+      "setter": "0x599",
+      "seconds": 1.2
+    },
+    "death": {
+      "setter": "0x14ee",
+      "seconds": 1.2
+    },
+    "amoeba": {
+      "setter": "0x1087",
+      "seconds": 1.2
+    }
+  }
+}

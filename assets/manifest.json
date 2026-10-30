@@ -1,0 +1,64 @@
+{
+  "sourceSha256": "6ff0a057ac276e67f7c7346219ffb7b5688c050dc4c6b133d4625dc591033160",
+  "runtime": "native Rust, no emulator",
+  "maps": {
+    "address": "0xb0e0",
+    "width": 40,
+    "height": 22,
+    "count": 100,
+    "decoderRoutines": [
+      "0x13d1",
+      "0x11e2",
+      "0x173d",
+      "0x16af"
+    ]
+  },
+  "graphics": {
+    "bank": "0x2c00..0x5daf",
+    "tileLookup": "0x5df0",
+    "playerIdle": "0x58f0",
+    "playerRight": "0x59b0",
+    "playerLeft": "0x5bb0",
+    "palettes": "original routine 0x2995"
+  },
+  "audio": {
+    "musicRoutine": "0x183d",
+    "noteSequence": "0x6979",
+    "periodTable": "0x6a79",
+    "ayRegisterWriter": "0x1818",
+    "deathParameters": "0x043c",
+    "sampleRate": 44100,
+    "synthesis": "offline square-wave tone and 17-bit noise; analogue filter and envelope not emulated"
+  },
+  "assets": {
+    "BoulderDash.icns": "8791fb1639e8052c3419fcdb418a50b79f809640bbe5a760a5dd8bca56083cf2",
+    "amoeba.ay.json": "a7c4598e7e7528212be58587cd7d949bc016292def89c10025a095663954dd69",
+    "amoeba.wav": "c38749c9b33ccd5f2101bdff5edc1558916e6018a8c0a8dfc71d1157ae69fe03",
+    "audio-manifest.json": "e7761ca75d8a26c7d8e067d74401d437e1c52ec17902cefe35ee60bb6ec4d37c",
+    "cave-flash.png": "3f56903d0593e25625ee3f99a346d910dae85cf58db5e43d4087158d4683a8d8",
+    "cave-wipe.png": "640c9cf362fa82e79b3038cd70a21318baef4bf4a7be7f024c15e687da9d7da0",
+    "caves-contact.png": "633f555abd7e4786b8edfe75421611cd6f120193819e625fa6e0b43c11c0482a",
+    "caves.bin": "0e445c11ac27388f41565e9c17614cdce56f3ecd5c0cfd54a6f1c17bf83ed33e",
+    "caves.json": "b2dfef43c6a039dd5980f0185e564b4792404dbf344b185c4fb6e71329971df2",
+    "death.ay.json": "2ae9a4bf9babd34ae5401ec1c629f0e0fee8880167db5e3c6ee5b87a9e4515f3",
+    "death.wav": "91980628b1c6fd073b6e0e34341607b4c35129c4731441ecd55ed75985f1be96",
+    "diamond.ay.json": "f56215aa189c8843fc2d8835bf0c29b168a6388300356e3a3a94cf4edf802d5b",
+    "diamond.wav": "ad7013a884d4207f96f134de47b10fcf599d76b201465d61e112db9f502ad8a9",
+    "dig.ay.json": "26b3f58b15dd801b3d26d98c59585a9f28926c563e5fa32d3bc20fe11245b25a",
+    "dig.wav": "d0343d91dfb1b9207814a7f3b7d5ca2bc885f1b2e82b05b5424d950946719f70",
+    "exit-bonus.ay.json": "586fab6140c6e9f21327877fce36eb5add7b6b29b0d8a210a69a89cd31edeef0",
+    "exit-bonus.wav": "66ec16e734caa19ed7c57877f5849e418375ed06b718843d0791e871f50f8da0",
+    "exit-effects.json": "55ad1f0767869922f24298846843c7fac2223f8da306645770e9c08e923b885a",
+    "exit-open.ay.json": "e014e34c269788d765cf5610a2579a1cc12ce2b29b876d10cd38680e3ec2b0dc",
+    "exit-open.wav": "9031679bef4b5666f1c6ec3ed6d12fe0114ab40e919240f50eace05b98fc5041",
+    "graphics-bank.bin": "75c8f1cac88b566167ccbd39ece252d9df0e434ae660f5d85de324d36de3573b",
+    "graphics-bank.png": "59d641a562018ae2dbcf331f075a5d2f055bbd8a53834d2e8b79bc433d5595b3",
+    "rock.ay.json": "216b4129a8e16dd1ef1d9ca2c88a24bedb2572598727104109e7f42683cdda5d",
+    "rock.wav": "71472a5b7a88ae1f538767c345bac7cd281c82a1830ffc2d875f005c7cc9db24",
+    "sprites.png": "a60808b99ce1b76488c50fa71b4c4c3a6e876c346bd2d67243d78b7c32c6dcec",
+    "step.ay.json": "b89fda8dfa23f46276ef6e022813b3c90ec8a409b1078895c7d8eb2828b02a90",
+    "step.wav": "5043d7d460cf2c55a7b5a7fe4d9af0035e685966fae567e7b39867805ed9460f",
+    "title.ay.json": "11548b65c45408d9ce64fd19c0458d17f64048bb029df2715c6fcb83be4c201c",
+    "title.wav": "d89e4d714b8e764d2e75116f08803d8cd00d4aad76e35487cb6c405df0daf3ab"
+  }
+}

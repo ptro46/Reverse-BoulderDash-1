@@ -1,0 +1,38 @@
+{
+  "source": "BoulderDash-1.dsk",
+  "sha256": "6ff0a057ac276e67f7c7346219ffb7b5688c050dc4c6b133d4625dc591033160",
+  "files": [
+    {
+      "name": "BOULD.BIN",
+      "type": 2,
+      "load": 12800,
+      "entry": 12800,
+      "length": 28709,
+      "sha256": "75f7ec1493cae07155222ef43c3415859f17d479c371bb5351b8bbcc1c75f143"
+    },
+    {
+      "name": "BOULDE.BIN",
+      "type": 2,
+      "load": 41792,
+      "entry": 0,
+      "length": 440,
+      "sha256": "9d18f69687bf03d8079c28c093424f38f3a1e3c38bb70f328311fb2dba34e945"
+    },
+    {
+      "name": "BOUL.BIN",
+      "type": 2,
+      "load": 42240,
+      "entry": 0,
+      "length": 25,
+      "sha256": "7d77ac600d6db857b7852bac2f3c1b1d76d5d42d7c7baa1da79c535e41374447"
+    },
+    {
+      "name": "BOULDER.BAS",
+      "type": 0,
+      "load": 368,
+      "entry": 0,
+      "length": 1237,
+      "sha256": "c88ae2550fcca6b6b2ea73a823e8775584ba05079b4ba1c3de657bd731599231"
+    }
+  ]
+}
